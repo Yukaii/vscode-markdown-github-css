@@ -1,0 +1,58 @@
+body {
+	background:#fefefe !important;
+	font:1rem;
+	margin:2rem 1rem;
+	font-variant-ligatures: common-ligatures;
+}
+
+html {
+	padding: 1em 4em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 0.3em;
+}
+
+blockquote {
+	padding: 0 1em !important;
+	border-left: 0.3em solid #ddd !important;
+	margin: 0 !important;
+}
+
+/* Overwrite vscode dark markdown theme */
+.vscode-dark {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark code {
+	color: #333;
+	tab-size: 2em;
+	background-color: #f7f7f7 !important;
+	padding: 0 !important;
+	padding-top: 0.2em !important;
+	padding-bottom: 0.2em !important;
+}
+
+.vscode-dark code > div {
+	background-color: #f7f7f7;
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark blockquote {
+	background: #fefefe;
+}
