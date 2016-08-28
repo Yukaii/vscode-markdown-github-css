@@ -1,6 +1,7 @@
 /* Overwrite vscode dark markdown theme */
 body {
 	background-color: white !important;
+	padding: .5em 5em;
 }
 
 .vscode-dark {
