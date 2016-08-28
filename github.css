@@ -1,4 +1,8 @@
 /* Overwrite vscode dark markdown theme */
+body {
+	background-color: white !important;
+}
+
 .vscode-dark {
 	color: rgb(30, 30, 30);
 }
