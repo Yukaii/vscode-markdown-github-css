@@ -6,16 +6,16 @@ Using BigstickCarpet's gist, which is based on [GitHub Markdown Repo][markdown-c
 
 ## Usage
 
-Download `[github.cc](https://cdn.rawgit.com/Yukaii/vscode-markdown-github-css/master/github.css)` and place somewhere in your filesystem.
+Download [`github.css`](https://cdn.rawgit.com/Yukaii/vscode-markdown-github-css/master/github.css) and place somewhere in your filesystem.
 
 Add the following lines to your `settings.json`.
 
 ```js
 {
   ... // other settings
-  "markdown.styles": [
-    "file:///PATH/TO/github.css",
-    "https://cdn.rawgit.com/BigstickCarpet/5d31c053d0b1d52389eb2723f7550907/raw/88e4538c0fc46e39a97f332b43546f92762a6bb6/github-markdown.css"
+  "markdown.styles": [ 
+    "https://cdn.rawgit.com/BigstickCarpet/5d31c053d0b1d52389eb2723f7550907/raw/88e4538c0fc46e39a97f332b43546f92762a6bb6/github-markdown.css",
+    "file:///PATH/TO/github.css"
   ]
 }
 ```
