@@ -18,6 +18,7 @@ body {
 }
 
 .vscode-dark code > div {
+	color: #333;
 	background-color: #f7f7f7;
 }
 
