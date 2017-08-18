@@ -1,4 +1,6 @@
-# GitHub flavored Markdown light theme for vscode
+# GitHub flavored Markdown light theme for vscode (DEPRECATED)
+
+**In the July 2017 update of VSCode, the VSCode team released a style contribution point for markdown preview. Now there's a [VS Code Github Style extension](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles) from them, use it instead :D**
 
 A light theme overwrite whether you're using VSCode dark/light theme.
 
